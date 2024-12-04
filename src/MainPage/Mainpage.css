@@ -1,0 +1,36 @@
+.App-Column {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 600px;
+    justify-content: space-evenly;
+  }
+
+  .App-Row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 600px;
+    background-color: #F1FEC6;
+  }
+
+  .center-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 360px;
+    height: 360px;
+    color: white;
+  }
+
+  .center-text{
+    text-align: center;
+    color: white;
+    font-family: monospace;
+  }
+
+  p {
+    text-align: center;
+    color: white;
+    font-family: monospace;
+  }

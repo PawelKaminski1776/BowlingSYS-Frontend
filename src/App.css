@@ -1,0 +1,104 @@
+body {
+  background-color: #B6D6CC;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.App-header {
+  background-color: #74A4BC;
+  height: 300px;
+  padding: 20px;
+  color: white;
+}
+.App-footer {
+  background-color: 74A4BC;
+  height: 200px;
+  padding: 20px;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.App-title {
+  margin-top: 0px;
+  font-size: 2em;
+}
+
+.App-title-link {
+  font-family: monospace;
+  color: white;
+}
+
+.App-title-link:link {
+  font-family: monospace;
+  color: inherit; 
+  text-decoration: none; 
+}
+
+.App-title-link:visited {
+  font-family: monospace;
+  color: inherit; 
+  text-decoration: none; 
+}
+.App-title-link:hover {
+  font-family: monospace;
+  color: inherit; 
+  text-decoration: none; 
+}
+
+
+.App-intro {
+  font-size: large;
+}
+
+nav
+{
+  background-color: 74A4BC;
+  height: 100px;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  color: white;
+  margin-top: 80px;
+}
+
+.login-button {
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: transparent;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  width: 10%;
+  height: 30px;
+  padding: 0.5rem;
+  transition: all ease .4s;
+  text-align: center;
+  border-radius: 15px;
+}
+
+
+.login-button:hover {
+  background-color: #44c8ed;
+  border-color: #44c8ed;
+}

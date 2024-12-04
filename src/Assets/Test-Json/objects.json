@@ -1,0 +1,22 @@
+[
+    {
+        "title":"Solo Bowling Booking",
+        "image":"../Assets/Images/solo.avif",
+        "description":"Train your own bowling abilities!",
+        "extendeddescription":" AAA Book solo for training your own abilities and book a personal trainer if needed",
+        "price":"£30"
+    },
+    {
+        "title":"Family Bowling Booking",
+        "image":"../Assets/Images/family-Bowling-Pic.webp",
+        "description":"A perfect experience for a fun family trip!",
+        "extendeddescription":"AA Book solo for training your own abilities and book a personal trainer if needed",
+        "price":"£50"
+    },    {
+        "title":"Friends Bowling Booking",
+        "image":"../Assets/Images/friends.avif",
+        "description":"A Fun time before drinking with your friends!",
+        "extendeddescription":"A Book solo for training your own abilities and book a personal trainer if needed",
+        "price":"£40"
+    }
+]

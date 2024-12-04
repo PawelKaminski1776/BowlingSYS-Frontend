@@ -1,0 +1,40 @@
+.app-column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 16px;
+  background-color: #F1FEC6;
+}
+
+.app-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 100px;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.booking-list {
+  margin: 20px;
+}
+
+.booking-item {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.details-panel {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.details-panel button {
+  margin-bottom: 10px;
+}
+
+.details-panel p {
+  margin: 5px 0;
+}

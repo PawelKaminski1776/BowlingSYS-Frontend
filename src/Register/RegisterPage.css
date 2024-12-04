@@ -1,0 +1,95 @@
+.register-App-Column {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 800px;
+    justify-content: space-between;
+  }
+
+  .register-App-Row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 800px;
+    background-color: #F1FEC6;
+  }
+  
+  .ErrorText {
+    color: red;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .register-form {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-top: 20%;
+    border-radius: 1.5rem;
+    background-color: #B6D6CC;
+    height: 575px;
+    width: 600px;;
+  }
+  
+  .register-form h4 {
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .register-form label {
+    margin-right: 650px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 600;
+    width: 300px;
+  }
+  
+  .register-form input {
+    color: black;
+    margin-top: 15px;
+    border-radius: 30px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    opacity: .3;
+    transition: all ease .4s;
+    font-size: large;
+    text-align: start;
+  }
+  
+  .register-form input:focus {
+    opacity: 0.8;
+  }
+  
+
+  
+  .register-form-button {
+    margin-top: 25px;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 20%;
+    height: 50px;
+    padding: 1rem;
+    transition: all ease .4s;
+  }
+  
+  .register-form-button:hover {
+    background-color: #44c8ed;
+    border-color: #44c8ed;
+  }
+
+  .button-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 0px;
+  }
+  
